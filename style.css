@@ -350,15 +350,13 @@ h3 {
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
-.icon>i{
+.project-box>i{
 
     font-size: 50px;
     color: #00B5E7;
     margin-bottom: 25px;
 }
-.icon{
-  display:flex;
-}
+
 .project-box label{
     font-size: 15px;
     color: #777;
@@ -377,7 +375,7 @@ h3 {
 .contact-info:hover.contact-info::after{
     bottom: 0;
 }
-.project-box:hover.project-box .icon,
+.project-box:hover.project-box>i,
 .project-box:hover.project-box>h3,
 .project-box:hover.project-box>label{
     color: var(--color-white);
